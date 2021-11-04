@@ -8,6 +8,10 @@ body {
   color: #757575;
 }
 
+/*---------Верхняя панель навигации--------*/
+
+.header {
+}
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -16,6 +20,9 @@ body {
   line-height: 31px;
   color: #2196f3;
 }
+
+/*----------Шапка сайта------------------*/
+
 .logo-tittle {
   color: #000000;
 }
