@@ -1,3 +1,5 @@
+/*--------Настройка сайта---------*/
+
 :root {
   --main-title-color: #ffffff;
   --second-title-color: #212121;
@@ -24,6 +26,12 @@ body {
 
 /*-----------Верхняя панель навигации-----------*/
 
+.header {
+}
+
+.header-navigation {
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -31,13 +39,36 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
+  letter-spacing: 0.03em;
 }
-
-/*-----------------Шапка сайта------------------*/
 
 .logo-tittle {
   color: #000000;
 }
+
+.site-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
+.auth-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  color: #757575;
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: #2196f3;
+}
+
+/*-----------------Шапка сайта------------------*/
 
 h1,
 h2,
@@ -46,16 +77,4 @@ h4,
 h5,
 h6 {
   color: #000000;
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-  color: #2196f3;
-}
-
-.site-nav a {
-  color: #000000;
-}
-.site-nav a:active {
-  color: violet;
 }
