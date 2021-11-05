@@ -1,11 +1,22 @@
 /*--------Настройка сайта---------*/
 
 :root {
+  --main-all-color: #ffffff;
   --main-title-color: #ffffff;
   --second-title-color: #212121;
   --main-text-color: #757575;
   --accent-color: #2196f3;
   --main-background-color: #2f303a;
+  --main-section-color: #f5f4fa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--second-title-color);
 }
 
 body {
@@ -13,7 +24,7 @@ body {
   background-color: #ffffff;
   color: #757575;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 .list {
@@ -27,6 +38,7 @@ body {
 /*-----------Верхняя панель навигации-----------*/
 
 .header {
+  background-color: var(--main-all-color);
 }
 
 .header-navigation {
@@ -37,8 +49,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;
+  line-height: 1.19;
+  color: var(--accent-color);
   letter-spacing: 0.03em;
 }
 
@@ -49,32 +61,181 @@ body {
 .site-nav a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
-  color: #212121;
+  line-height: 1.14;
+  color: var(--second-title-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .auth-nav a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
-  color: #757575;
+  line-height: 1.14;
+  color: var(--main-text-color);
 }
 .auth-nav a:hover,
 .auth-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*-----------------Шапка сайта------------------*/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #000000;
+.hero {
+  background-color: var(--main-background-color);
+}
+
+.hero-title {
+  color: var(--main-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+.hero-button {
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*----------------Секция достоинатсва-----------------*/
+
+.advantages-section {
+  background-color: var(--main-all-color);
+}
+
+.advantages-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.advantages-paragraph {
+  color: var(--main-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/*--------------Секция спецификации------------------*/
+
+.specific-section {
+  background-color: var(--main-all-color);
+}
+.specific-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/*------------------Секция команды---------------------*/
+
+.command-section {
+  background-color: var(--main-section-color);
+}
+
+.command-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.command-card {
+  background-color: var(--main-all-color);
+}
+
+.command-title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.command-paragraph {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*---------------------Подвальная секция-----------------------*/
+
+.footer-section {
+  background-color: var(--main-background-color);
+}
+.footer-link {
+  color: var(--main-title-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-contacts {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.logo-tittle-next {
+  color: #ffffff;
+}
+.footer-link:hover,
+.footer-contacts:hover,
+.footer-link:focus,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+/*---------------Страница портфолио-----------------*/
+
+.works-section {
+  background-color: var(--main-all-color);
+}
+
+.button-page {
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.works-card {
+  width: 370px;
+  height: 404px;
+}
+
+.works-title {
+  color: var(--second-title-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works-paragraph {
+  color: var(--main-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
