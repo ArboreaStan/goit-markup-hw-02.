@@ -1,16 +1,15 @@
-/*--------Настройка сайта---------*/
+/*--------SETTINGS SITE--------*/
 
 html {
   scroll-behavior: smooth;
 }
 
 :root {
-  --main-all-color: #ffffff;
+  --main-background-color: #2f303a;
   --main-title-color: #ffffff;
   --second-title-color: #212121;
   --main-text-color: #757575;
   --accent-color: #2196f3;
-  --main-background-color: #2f303a;
   --main-section-color: #f5f4fa;
 }
 
@@ -39,7 +38,7 @@ body {
   text-decoration: none;
 }
 
-/*-----------Верхняя панель навигации-----------*/
+/*-----------HEADER-----------*/
 
 .header {
 }
@@ -79,18 +78,18 @@ body {
   color: var(--accent-color);
 }
 
-.auth-nav a {
+.auth-nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--main-text-color);
 }
-.auth-nav a:hover,
-.auth-nav a:focus {
+.auth-nav-link:hover,
+.auth-nav-link:focus {
   color: var(--accent-color);
 }
 
-/*-----------------Шапка сайта------------------*/
+/*-----------------HERO SECTION------------------*/
 
 .hero {
   background-color: var(--main-background-color);
@@ -107,7 +106,7 @@ body {
 .hero-button {
   color: #ffffff;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   width: 200px;
@@ -117,29 +116,33 @@ body {
   border-radius: 4px;
 }
 
-/*----------------Секция достоинатсва-----------------*/
-
-.advantages-section {
-  background-color: var(--main-all-color);
+.hero-button:hover,
+.hero-button:focus {
+  color: #ffffff;
+  background-color: #188ce8;
 }
 
-.advantages-title {
+/*----------------REASONS SECTION-----------------*/
+
+.reasons-section {
+}
+
+.reasons-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
 }
 
-.advantages-paragraph {
+.reasons-text {
   color: var(--main-text-color);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 
-/*--------------Секция спецификации------------------*/
+/*--------------SPECIFIC SECTION------------------*/
 
 .specific-section {
-  background-color: var(--main-all-color);
 }
 .specific-title {
   font-weight: bold;
@@ -148,7 +151,7 @@ body {
   text-align: center;
 }
 
-/*------------------Секция команды---------------------*/
+/*------------------COMAND SECTION---------------------*/
 
 .command-section {
   background-color: var(--main-section-color);
@@ -177,7 +180,7 @@ body {
   line-height: 19px;
 }
 
-/*---------------------Подвальная секция-----------------------*/
+/*---------------------FOOTER SECTION-----------------------*/
 
 .footer-section {
   background-color: var(--main-background-color);
@@ -208,7 +211,11 @@ body {
   color: var(--accent-color);
 }
 
-/*---------------Страница портфолио-----------------*/
+/*---------------PORTFOLIO PAGE-----------------*/
+
+/*---------------HEADER SECTION COPY-----------------*/
+
+/*---------------WORKS SECTION-----------------*/
 
 .works-section {
   background-color: var(--main-all-color);
@@ -227,6 +234,12 @@ body {
   top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
+}
+
+.button-page:focus,
+.button-page:hover {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .works-card {
@@ -249,3 +262,5 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+
+/*---------------CONTACT SECTION COPY-----------------*/
