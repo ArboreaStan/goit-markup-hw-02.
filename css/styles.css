@@ -44,10 +44,6 @@ body {
 .header {
 }
 
-.current {
-  color: var(--accent-color);
-}
-
 .header-navigation {
 }
 
@@ -72,6 +68,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--second-title-color);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .site-nav-link:hover,
