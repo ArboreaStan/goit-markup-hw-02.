@@ -128,14 +128,13 @@ body {
 }
 
 .reasons-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 
 .reasons-text {
   color: var(--main-text-color);
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -145,7 +144,7 @@ body {
 .specific-section {
 }
 .specific-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -158,7 +157,7 @@ body {
 }
 
 .command-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -174,8 +173,7 @@ body {
   line-height: 1.19;
 }
 
-.command-paragraph {
-  font-weight: normal;
+.command-text {
   font-size: 16px;
   line-height: 19px;
 }
@@ -218,7 +216,6 @@ body {
 /*---------------WORKS SECTION-----------------*/
 
 .works-section {
-  background-color: var(--main-all-color);
 }
 
 .button-page {
