@@ -13,15 +13,6 @@ html {
   --main-section-color: #f5f4fa;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--second-title-color);
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
@@ -38,9 +29,23 @@ body {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /*-----------HEADER-----------*/
 
-.header {
+.header-title {
+  color: var(--main-title-color);
 }
 
 .header-navigation {
@@ -128,6 +133,7 @@ body {
 }
 
 .reasons-title {
+  color: var(--second-title-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -168,6 +174,7 @@ body {
 }
 
 .command-title-name {
+  color: var(--second-title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -252,7 +259,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.works-paragraph {
+.works-text {
   color: var(--main-text-color);
   font-weight: normal;
   font-size: 16px;
