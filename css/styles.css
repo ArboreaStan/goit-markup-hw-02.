@@ -150,6 +150,7 @@ body {
 .specific-section {
 }
 .specific-title {
+  color: var(--second-title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -163,6 +164,7 @@ body {
 }
 
 .command-title {
+  color: var(--second-title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -232,10 +234,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
 }
@@ -247,13 +245,11 @@ body {
 }
 
 .works-card {
-  width: 370px;
-  height: 404px;
 }
 
 .works-title {
   color: var(--second-title-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -261,7 +257,6 @@ body {
 
 .works-text {
   color: var(--main-text-color);
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
